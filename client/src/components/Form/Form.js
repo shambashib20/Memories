@@ -5,8 +5,7 @@ import useStyles from './styles';
 
                 
 const Form = () => {
-    const [ postData, setPostData ] = useState({
- });
+    const [ postData, setPostData ] = useState({ creator: '', title: '', message: '', tags: '', selectedFile: '' });
 
     const classes = useStyles();
     const handleSubmit = () => {
