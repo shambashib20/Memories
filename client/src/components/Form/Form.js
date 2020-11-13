@@ -6,8 +6,7 @@ import useStyles from './styles';
                 
 const Form = () => {
     const [ postData, setPostData ] = useState({
-        
-    });
+ });
 
     const classes = useStyles();
     const handleSubmit = () => {
